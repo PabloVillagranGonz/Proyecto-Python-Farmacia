@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Paracetamol",
+        "cantidad": 20,
+        "precio": 1.50
+    },
+    {
+        "nombre": "Ibuprofeno",
+        "cantidad": 15,
+        "precio": 2.00
+    },
+    {
+        "nombre": "Amoxicilina",
+        "cantidad": 10,
+        "precio": 3.25
+    },
+    {
+        "nombre": "Aspirina",
+        "cantidad": 25,
+        "precio": 1.75
+    },
+    {
+        "nombre": "Loratadina",
+        "cantidad": 30,
+        "precio": 4.50
+    },
+    {
+        "nombre": "Omeprazol",
+        "cantidad": 12,
+        "precio": 5.00
+    }
+]
