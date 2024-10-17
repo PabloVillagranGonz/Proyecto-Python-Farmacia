@@ -18,7 +18,12 @@ class Carrito:
 
     # Funcion para agregar  productos
     def agregar_producto(self, producto, cantidad):
-        self.productos.append((producto, cantidad))
+        if cantidad <= producto.cantidad:
+            producto.cantidad -= cantidad # Reducimos el stock disponible
+            self.productos.append((producto, cantidad))
+            print(f"{producto.nombre} ha sido añadido al carrito.")
+        else:
+            print(f"No hay suficiente stock de {producto.nombre}. Stock disponible {producto.cantidad}")
 
     # Funcion para mostrar el carrito de compra
     def mostrar_carrito(self):
@@ -132,7 +137,6 @@ def main():
                 cantidad = int(input(f"Ingrese la cantidad de {producto.nombre}: "))
                 if cantidad <= producto.cantidad:
                     carrito.agregar_producto(producto, cantidad)
-                    print(f"{producto.nombre} ha sido añadido al carrito.")
                 else:
                     print("No hay suficiente stock.")
             else:

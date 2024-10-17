@@ -1,3 +1,5 @@
 Resumen de pedido:
-Paracetamol x 3 = 4.50€
-Total: 4.50€
+Ibuprofeno x 12 = 24.00€
+Ibuprofeno x 12 = 24.00€
+Ibuprofeno x 12 = 24.00€
+Total: 72.00€
